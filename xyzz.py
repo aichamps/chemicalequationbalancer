@@ -11,8 +11,8 @@ image = Image.open('logo-image.png')
 col1, col2 = st.columns([7, 3])
 with col1:
     st.title(" ")
+    st.title("AIChamps 🎯")
     st.markdown("<h1>Chemical Equation Balancer</h1>", unsafe_allow_html=True)
-    st.title("By AIChamps 🎯")
     st.subheader("Hello Fellow Students!!!")
     st.text("Lets Balance our Chemical Equations here")
 with col2:

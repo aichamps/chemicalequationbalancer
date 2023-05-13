@@ -6,7 +6,7 @@ from PIL import Image
 elementList=[]
 elementMatrix=[]
 
-st.set_page_config(layout="wide", page_icon="💬", page_title="CEB")
+st.set_page_config(layout="wide", page_icon="🧪⚗️", page_title="CEB")
 image = Image.open('logo-image.png')
 col1, col2 = st.columns([7, 3])
 with col1:
@@ -15,7 +15,7 @@ with col1:
     st.markdown("""
     AIChamps 🎯
     """)
-    st.header("................................................................")
+    st.header("__________________________________________________________________________________________________________________________________________________________")
     st.subheader("Hello Fellow Students!!!")
     st.text("Lets Balance our Chemical Equations here")
 with col2:

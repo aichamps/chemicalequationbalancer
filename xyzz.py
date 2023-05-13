@@ -6,12 +6,19 @@ elementList=[]
 elementMatrix=[]
 
 st.set_page_config(layout="wide", page_icon="💬", page_title="CEB")
-st.markdown("<h1 style='text-align: center; color: grey;'>Chemical Equation Balancer</h1>", unsafe_allow_html=True)
-
+image = Image.open('logo-image.png')
+col1, col2 = st.columns([7, 3])
+with col1:
+    st.title(" ")
+    st.markdown("<h1 style='color: grey;'>Chemical Equation Balancer</h1>", unsafe_allow_html=True)
+    st.title("By AIChamps 🎯")
+    st.subheader("Hello Fellow Students!!!")
+    st.text("Lets Balance our Chemical Equations here")
+with col2:
+    st.image(image)
+    
 st.image("https://c4.wallpaperflare.com/wallpaper/22/728/16/technology-physics-and-chemistry-chemistry-hd-wallpaper-preview.jpg")
 
-st.subheader("Hello Fellow Students!!!")
-st.text("Lets Balance our Chemical Equations here")
 st.text("Please input your reactants, this is case sensitive")
 st.text("Your input should look like: H2O+Ag3(Fe3O)4")
 reactants = st.text_input("Reactants:", "")

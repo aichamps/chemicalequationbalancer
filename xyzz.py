@@ -11,11 +11,11 @@ image = Image.open('logo-image.png')
 col1, col2 = st.columns([7, 3])
 with col1:
     st.title(" ")
-    st.title("AIChamps 🎯")
+    st.title("Chemical Equation Balancer")
     st.markdown("""
-    Chemical Equation Balancer
-    ----
+    AIChamps 🎯
     """)
+    st.header("................................................................")
     st.subheader("Hello Fellow Students!!!")
     st.text("Lets Balance our Chemical Equations here")
 with col2:

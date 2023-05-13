@@ -12,10 +12,8 @@ col1, col2 = st.columns([7, 3])
 with col1:
     st.title(" ")
     st.title("Chemical Equation Balancer")
-    st.markdown("""
-    AIChamps 🎯
-    """)
-    st.header("__________________________________________________________________________________________________________________________________________________________")
+    st.header("AIChamps 🎯")
+    st.header("_____________________________________________________________________________")
     st.subheader("Hello Fellow Students!!!")
     st.text("Lets Balance our Chemical Equations here")
 with col2:

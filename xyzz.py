@@ -19,7 +19,7 @@ with col2:
     st.image(image)
     
 st.image("https://c4.wallpaperflare.com/wallpaper/22/728/16/technology-physics-and-chemistry-chemistry-hd-wallpaper-preview.jpg")
-
+st.text(" ")
 st.text("Please input your reactants, this is case sensitive")
 st.text("Your input should look like: H2O+Ag3(Fe3O)4")
 reactants = st.text_input("Reactants:", "")

@@ -1,6 +1,7 @@
 import re
 from sympy import Matrix, lcm
 import streamlit as st
+from PIL import Image
 
 elementList=[]
 elementMatrix=[]

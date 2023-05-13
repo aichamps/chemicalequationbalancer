@@ -13,7 +13,7 @@ with col1:
     st.title(" ")
     st.title("Chemical Equation Balancer")
     st.header("AIChamps 🎯")
-    st.header("_____________________________________________________________________________")
+    st.header("_________________________")
     st.subheader("Hello Fellow Students!!!")
     st.text("Lets Balance our Chemical Equations here")
 with col2:
